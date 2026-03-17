@@ -23,7 +23,6 @@ def activities():
     # GET 時給空白欄位
     return render_template('activities.html', question="", answer="")
 
-
 @app.route('/leadership')
 def leadership():
     return render_template('leadership.html')
